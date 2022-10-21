@@ -1,0 +1,14 @@
+{
+  "name": "laminar",
+  "version": "1.0.0",
+  "description": "Laminar Flow Controllers",
+  "author": "nverba",
+  "license": "MIT",
+  "private": false,
+  "repository": "git@github.com:distantstate/laminar.git",
+  "scripts": {
+    "start": "npx http-server -o ./projects/examples/index.html",
+    "dev": "npx http-server -o ./projects/examples/index.html & npx tailwindcss -o ./projects/examples/style/tailwind.css --watch"
+  }
+}
+ 

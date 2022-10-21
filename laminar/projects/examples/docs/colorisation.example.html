@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style/tailwind.css" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+  <style>
+    code {
+      font-family: 'Source Code Pro', monospace;
+    }
+  </style>
+
+  <title>Document</title>
+</head>
+
+<body class="bg-[#252336]">
+
+  <div class="relative w-full h-full p-20 text-[#fa7cd8] text-sm bg-black">
+    <pre class="relative w-full h-full"><code id="code" class="relative w-full h-full block select-text"></code>
+      <div  id="code-colormask-wrapper" class="w-full h-full block absolute top-0 left-0">
+        <div id="code-colormask" class="w-full h-full absolute top-0 left-0"></div>
+        <div id="code-colormask-overlay" class="w-full h-full absolute top-0 left-0 bg-[#161e2b] mix-blend-difference"></div>
+      </div>
+    </pre> <!-- pointer-events-none -->
+  </div>
+
+  <script src="./data/index.js" type="module"></script>
+</body>
+
+</html>
